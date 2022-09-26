@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <main class="main-container">
+    <div class="card">
+
+      <section class="card__ilustration">
+        <div class="card__img">
+          <img id="product-img-mobile" src="./images/image-product-mobile.jpg" alt="product-img-mobile">
+          <img id="product-img-desktop" src="./images/image-product-desktop.jpg" alt="product-img-desktop">
+        </div>
+      </section>
+  
+      <section class="card__info">
+        <div class="card__category" id="category">
+          <p>Perfume</p>
+        </div>
+  
+        <div class="card__title" id="title">
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+        </div>
+  
+        <div class="card__description" id="description">
+          <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+            Perfumer-Creator for the House of CHANEL.</p>
+        </div>
+        
+        <div class="card__price">
+          <div class="card__price" id="price-after">
+            <p>$149.99</p>
+          </div>
+          <div class="card__price" id="price-before">
+            <p>$169.99</p>
+          </div>
+        </div>
+  
+        <div class="card__buttom" >
+          <button id="button-add-to-card">
+            <img src="./images/icon-cart.svg" alt="button icon shopping cart">
+            <span class="card__buttom-text">Add to Cart</span>
+          </button>
+        </div>
+      </section>
+  
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Daniel Chaparro Marin</a>.
+  </footer>
+</body>
+</html>
